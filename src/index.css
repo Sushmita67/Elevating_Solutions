@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Frutiger-Regular';
+  src: url('./assets/fonts/Frutiger-DfPjhwyg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Frutiger-Bold';
+  src: url('./assets/fonts/Frutiger_bold-BcC8UB7I.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Frutiger-Next-Regular';
+  src: url('./assets/fonts/FrutigerNextLT-Regular-dXHMHufx.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Frutiger-Next-Medium';
+  src: url('./assets/fonts/FrutigerNextLT-Medium-CDOjIqRw.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Frutiger-Next-Bold';
+  src: url('./assets/fonts/FrutigerNextLT-Bold-CeRq0lXw.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Frutiger-Next-Regular', 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
